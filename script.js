@@ -21,41 +21,17 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript"]
   },
   {
-    title: "Landing Page — Projeto 02",
-    category: "PÁGINA DE VENDAS",
-    description: "Página criada para destacar uma solução, apresentar seus benefícios e incentivar o contato.",
-    image: "imagens/projeto-2.jpg",
+    title: "Site de Gerência - Padaria Saboreal",
+    category: "Site para a Gerência",
+    description: "Paágina criada para a Gerência da empesa, onde possui sistema de abrir e fechar caixa, além de um fluxo de caixa e cadastro de produtos.",
+    image: "imagens/Saboreal.png",
     link: "#",
-    tags: ["HTML", "CSS"]
+    tags: ["HTML", "CSS", "JavaScript", "Python", "SQL"]
   },
-  {
-    title: "Landing Page — Projeto 03",
-    category: "NEGÓCIO LOCAL",
-    description: "Site para apresentar um negócio local, seus diferenciais e informações importantes para clientes.",
-    image: "imagens/projeto-3.jpg",
-    link: "#",
-    tags: ["HTML", "CSS", "JavaScript"]
-  },
-  {
-    title: "Landing Page — Projeto 04",
-    category: "PORTFÓLIO",
-    description: "Página profissional organizada para destacar trabalhos, habilidades e canais de contato.",
-    image: "imagens/projeto-4.jpg",
-    link: "#",
-    tags: ["HTML", "CSS"]
-  },
-  {
-    title: "Landing Page — Projeto 05",
-    category: "PROJETO PERSONALIZADO",
-    description: "Experiência digital desenvolvida com identidade visual e conteúdo adaptados ao projeto.",
-    image: "imagens/projeto-5.jpg",
-    link: "#",
-    tags: ["HTML", "CSS", "JavaScript"]
-  }
 ];
 
 const grid = document.getElementById("projectGrid");
-const selectedProjects = projects.slice(0, 5);
+const selectedProjects = projects.slice(0, 2);
 
 grid.innerHTML = selectedProjects.map((project, index) => {
   const imageMarkup = project.image
