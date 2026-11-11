@@ -25,7 +25,7 @@ const projects = [
     category: "Site para a Gerência",
     description: "Paágina criada para a Gerência da empesa, onde possui sistema de abrir e fechar caixa, além de um fluxo de caixa e cadastro de produtos.",
     image: "imagens/Saboreal.png",
-    link: "#",
+    link: "https://github.com/lucasfbsdev8/Saboreal---Fluxo-de-Caixa",
     tags: ["HTML", "CSS", "JavaScript", "Python", "SQL"]
   },
 ];
