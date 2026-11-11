@@ -1,0 +1,25 @@
+PORTFÓLIO DE PROJETOS — ARTHUR SOARES RAMOS
+
+1. Extraia o ZIP.
+2. Abra a pasta no VS Code.
+3. Abra o arquivo script.js.
+4. Edite a lista "projects" com os seus cinco projetos reais:
+   - title: nome do projeto
+   - category: categoria
+   - description: descrição curta
+   - image: caminho da captura de tela
+   - link: URL publicada do projeto
+   - tags: tecnologias utilizadas
+
+IMAGENS:
+Crie/coloque as capturas de tela na pasta "imagens", com estes nomes:
+projeto-1.jpg, projeto-2.jpg, projeto-3.jpg, projeto-4.jpg e projeto-5.jpg.
+Use capturas reais dos sites que você desenvolveu. Se não houver imagem, o cartão
+mostrará uma prévia ilustrativa automaticamente.
+
+CONTATOS:
+No index.html, substitua o e-mail, Instagram, GitHub e número do WhatsApp
+pelos seus dados. No link do WhatsApp, use código do país + DDD + número,
+somente números (exemplo de formato: 5534999999999).
+
+Para visualizar, abra index.html com a extensão Live Server no VS Code.

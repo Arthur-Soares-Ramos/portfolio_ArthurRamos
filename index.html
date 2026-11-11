@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de projetos desenvolvidos por Arthur Soares Ramos.">
+  <title>Arthur Soares | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#inicio"><span>Arthur Soares Ramos</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato" class="nav-button">Contato ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><i></i> DESENVOLVEDOR WEB</span>
+        <h1>Ideias que ganham vida na <span>web.</span></h1>
+        <p>Olá, sou Arthur Soares Ramos. Desenvolvo experiências digitais com foco em design, funcionalidade e uma boa experiência para cada usuário.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projetos">Ver projetos <b>↓</b></a>
+          <a class="button secondary" href="#contato">Entrar em contato <b>↗</b></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-glow"></div>
+        <div class="browser">
+          <div class="browser-bar"><span></span><span></span><span></span><div>meuportfolio.dev</div></div>
+          <div class="browser-content">
+            <div class="mini-nav"><b>AS<span>.</span></b><i></i><i></i><i></i></div>
+            <div class="mini-title"></div><div class="mini-title short"></div>
+            <div class="mini-text"></div><div class="mini-text smaller"></div>
+            <div class="mini-button"></div>
+            <div class="mini-cards"><i></i><i></i><i></i></div>
+          </div>
+        </div>
+        <div class="floating-chip chip-one">✦ Design & Código</div>
+        <div class="floating-chip chip-two">&lt;/&gt; HTML · CSS · JS</div>
+      </div>
+      <a class="scroll" href="#sobre">ROLE PARA EXPLORAR <span>↓</span></a>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="section-kicker">01 — SOBRE MIM</div>
+      <div class="about-grid">
+        <h2>Desenvolvimento com propósito e <span>criatividade.</span></h2>
+        <div class="about-text">
+          <p>Sou Arthur Soares Ramos, estudante de Sistemas de Informação no Centro Universitário de Patos de Minas(UNIPAM), desenvolvedor web em formação, interessado em tecnologia, criação de sites e experiências digitais.</p>
+          <p>Neste espaço, apresento alguns dos projetos que desenvolvi, mostrando na prática minhas habilidades e minha evolução na área.</p>
+        </div>
+      </div>
+      <div class="tech-list"><span>TECNOLOGIAS</span><b>HTML</b><b>CSS</b><b>JavaScript</b><b>Responsividade</b></div>
+    </section>
+
+    <section class="projects section" id="projetos">
+      <div class="section-kicker">02 — PORTFÓLIO</div>
+      <div class="projects-heading">
+        <div><h2>Projetos <span>selecionados.</span></h2><p>Uma seleção de páginas e experiências que desenvolvi.</p></div>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="section-kicker">03 — CONTATO</div>
+      <div class="contact-grid">
+        <div>
+          <span class="eyebrow">VAMOS CONVERSAR?</span>
+          <h2>Tem um projeto em mente? <span>Vamos tirar do papel.</span></h2>
+          <p>Entre em contato para conversar sobre ideias, oportunidades ou novos projetos.</p>
+          <a class="button primary" id="whatsappbutton" href="https://wa.me/5534996398705">Fale comigo ↗</a>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.instagram.com/arthurramos.dev/" target="_blank" rel="noopener noreferrer" id="instagramLink"><span>INSTAGRAM</span><b>@arthurramos.dev</b><i>↗</i></a>
+          <a href="https://github.com/Arthur-Soares-Ramos" target="_blank" rel="noopener noreferrer" id="githubLink"><span>GITHUB</span><b>Arthur-Soares-Ramos</b><i>↗</i></a>
+          <a href="https://wa.me/5534996398705" target="_blank" rel="noopener noreferrer" id="whatsappLink"><span>WHATSAPP</span><b>Converse comigo no número (34)996398705</b><i>↗</i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="logo" href="#inicio"><span>Arthur Soares Ramos</span></a><p>© <span id="year"></span> Arthur Soares Ramos. Todos os direitos reservados.</p><a href="#inicio">Voltar ao topo ↑</a></footer>
+</body>
+</html>
