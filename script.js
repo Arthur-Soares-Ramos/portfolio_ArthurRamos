@@ -31,7 +31,7 @@ const projects = [
 ];
 
 const grid = document.getElementById("projectGrid");
-const selectedProjects = projects.slice(0, 2);
+const selectedProjects = projects.slice(0, 5);
 
 grid.innerHTML = selectedProjects.map((project, index) => {
   const imageMarkup = project.image
