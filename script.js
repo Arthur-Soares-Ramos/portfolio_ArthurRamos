@@ -14,7 +14,7 @@
 const projects = [
   {
     title: "Landing Page — LR Studio Car",
-    category: "LANDING PAGE",
+    category: "Landing Page",
     description: "Apresentação de uma empresa ou negócio, com informações, serviços e formas de contato.",
     image: "imagens/LR.png",
     link: "https://arthur-soares-ramos.github.io/LR-Studio-Car/",
@@ -23,10 +23,18 @@ const projects = [
   {
     title: "Site de Gerência - Padaria Saboreal",
     category: "Site para a Gerência",
-    description: "Paágina criada para a Gerência da empesa, onde possui sistema de abrir e fechar caixa, além de um fluxo de caixa e cadastro de produtos.",
+    description: "Página criada para a Gerência da empesa, onde possui sistema de abrir e fechar caixa, além de um fluxo de caixa e cadastro de produtos.",
     image: "imagens/Saboreal.png",
     link: "https://github.com/lucasfbsdev8/Saboreal---Fluxo-de-Caixa",
     tags: ["HTML", "CSS", "JavaScript", "Python", "SQL"]
+  },
+  {
+    title: "Site — GV Imports",
+    category: "Site",
+    description: "Apresentação de uma empresa ou negócio, com informações, sendo possível o pedido imediato por meio do WhatsApp.",
+    image: "imagens/GVimports.jpg",
+    link: "http://gvimports.netlify.app/",
+    tags: ["HTML", "CSS", "JavaScript"]
   },
 ];
 
